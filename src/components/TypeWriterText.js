@@ -85,13 +85,13 @@ const TypeWriterText = () => {
         }}
         onInit={(typewriter) => {
           typewriter
-            .typeString(`<span class="text-1">Virtual try on</span>`)
+            .typeString(`<span class="text-1">Any Garment</span>`)
             .pauseFor(2000)
             .deleteAll()
-            .typeString(`<span class="text-2">Any Garment, any Model</span>`)
+            .typeString(`<span class="text-2">Any Model</span>`)
             .pauseFor(2000)
             .deleteAll()
-            .typeString(`<span class="text-3">One-click generation</span>`)
+            .typeString(`<span class="text-3">In One-click</span>`)
             .pauseFor(2000)
             .deleteAll()
             .start();
