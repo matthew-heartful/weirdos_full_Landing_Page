@@ -142,22 +142,15 @@ const About = () => {
         </Box>
         <Box>
           <Title>
-            Welcome To The <br /> Weirdos Club.
+            Experiment <br /> with fashion.
           </Title>
           <SubText>
-            The WEIRDOS CLUB is a private collection of NFTs—unique digital
-            collectibles. The Weirdos are stored as ERC-721 tokens on the
-            Ethereum blockchain and hosted on IPFS.
-          </SubText>
+          without the need for physically trying on clothing. Yet, current techniques frequently face challenges in producing results with high fidelity and consistent detail.          </SubText>
           <SubTextLight>
-            With more than 200+ hand drawn traits, each NFT is unique and comes
-            with a membership to an exclusive group of successful investors.
-            Join an ambitious ever-growing community with multiple benefits and
-            utilities.
-          </SubTextLight>
+          Diffusion models have shown their capability in creating high-quality, photorealistic images. However, in conditional generation contexts such as virtual try-ons, they continue to encounter obstacles in attaining control and maintaining consistency.          </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
-              <Button text="JOIN OUR DISCORD" link="#" newTab={true} />
+              <Button text="REACH OUT ON TELEGRAM" link="https://t.me/matthew_ddi" newTab={true} />
             </ThemeProvider>
           </ButtonContainer>
         </Box>

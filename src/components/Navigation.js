@@ -167,7 +167,7 @@ const Navigation = () => {
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button text="Connect Wallet" link="https://google.com" />
+          <Button text="Reach out" link="mailto:matthew.ddy@gmail.com" />
         </div>
       </NavBar>
     </Section>

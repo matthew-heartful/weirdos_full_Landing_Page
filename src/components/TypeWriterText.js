@@ -101,7 +101,7 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Integrate it with your business.</SubTitle>
     <ButtonContainer>
-    <Button text="Explore" link="#about" />
+    <Button text="Try it" link="#about" />
     </ButtonContainer>
     </>
   );

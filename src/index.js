@@ -13,6 +13,15 @@ root.render(
   </BrowserRouter>
 );
 
+import ImagePipeline from "./components/ImagePipe.tsx";
+
+export default function Home() {
+  return (
+    <div>
+      <ImagePipeline />
+    </div>
+  );
+}
 // import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(

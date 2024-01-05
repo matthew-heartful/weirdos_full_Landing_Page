@@ -124,7 +124,7 @@ const Home = () => {
         <Circle>
           &#x2193; 
         </Circle>
-          <img width={500} height={400} src={RoundTextBlack} alt="NFT" />
+          {/* <img width={500} height={400} src={RoundTextBlack} alt="NFT" /> */}
         </Round>
 
       </Container>

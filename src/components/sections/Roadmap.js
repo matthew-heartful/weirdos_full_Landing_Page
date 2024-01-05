@@ -211,7 +211,7 @@ const Roadmap = () => {
 
   return (
     <Section id="roadmap">
-      <Title>Roadmap</Title>
+      <Title>How it works</Title>
       <Container>
         <SvgContainer>
           <DrawSvg />
@@ -220,28 +220,28 @@ const Roadmap = () => {
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
-            title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Input images"
+            subtext="The user uploads or selects images of the garment, which can be one or several, along with an image of the person."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Great Benefits"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Text encoder"
+            subtext="The model generates a text prompt to correctly merge the images into a single photo."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Zero-shot Tryon Network"
+            subtext="Fusion network that aids in embedding the garment's details into the model's feature representation."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Post-Hoc Refiner"
+            subtext="For the detailed refinement of clothing and skin texture in the resulting images."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Output images"
+            subtext="The resulting images maintain the original style and shape of the clothing, as well as the body type of the person."
           />
         </Items>
       </Container>
